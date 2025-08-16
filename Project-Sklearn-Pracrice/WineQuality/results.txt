@@ -1,0 +1,2 @@
+RandomForestClassifier - 67.55102040816327
+RandomForestRegressor - 65.51020408163265
