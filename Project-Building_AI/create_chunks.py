@@ -18,4 +18,4 @@ for audio in os.listdir("Project-Building_AI/audios"):
         chunk_with_metadata = {"chunk" : chunk, "text" : result["text"]}
             
         with open(f"Project-Building_AI/jsons/{audio[:-4]}.json", "w") as f:
-            json.dump(chunk, f)
+            json.dump(chunk_with_metadata, f)
